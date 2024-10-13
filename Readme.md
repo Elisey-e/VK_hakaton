@@ -12,4 +12,4 @@ qwen_test.ipynb - файл для теста модели
 
 3) Скачать веса https://disk.yandex.ru/d/XQvAVgxdzT6vlw - папка qwen-finetuned, поместить её в директорию проекта 
 
-4) <<exec qwen_test.ipynb : Run All >>
+4) ""exec qwen_test.ipynb : Run All ""
