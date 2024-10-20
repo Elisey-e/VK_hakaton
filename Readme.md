@@ -16,4 +16,19 @@ qwen_test.ipynb - файл для теста модели
 
 ## Train
 
+Загрузка датасета расположена в разделе Data
+
+Требуемый формат выходного датасета(или фолда KFold):
+
+DatasetDict({
+    train: Dataset({
+        features: ['text'],
+        num_rows: 5341
+    })
+    test: Dataset({
+        features: ['text'],
+        num_rows: 594
+    })
+})
+
 1) !!! Заменить все локальные пути в программе на требуемые ресурсы
