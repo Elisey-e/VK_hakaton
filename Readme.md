@@ -1,6 +1,6 @@
 # Описание
 
-qwen.ipynb - обучение модели
+FINAL_train_qwen.ipynb - обучение модели
 
 qwen_test.ipynb - файл для теста модели
 
@@ -10,7 +10,7 @@ qwen_test.ipynb - файл для теста модели
 
 2) cd VK_hakaton
 
-3) Скачать веса https://disk.yandex.ru/d/XQvAVgxdzT6vlw - папка qwen-finetuned, поместить её в директорию проекта 
+3) Скачать веса https://disk.yandex.ru/d/XQvAVgxdzT6vlw - папка qwen: исходная модель фиксированной версии; папка russia_chad: дообученная модель, поместить её в директорию проекта 
 
 4) ""exec qwen_test.ipynb : Run All""
 
