@@ -21,14 +21,18 @@ qwen_test.ipynb - файл для теста модели
 Требуемый формат выходного датасета(или фолда KFold):
 
 DatasetDict({
+
     train: Dataset({
+    
         features: ['text'],
-        num_rows: 5341
-    })
+        
+        num_rows: 5341 })
+        
     test: Dataset({
+    
         features: ['text'],
-        num_rows: 594
-    })
+        
+        num_rows: 594})
 })
 
 1) !!! Заменить все локальные пути в программе на требуемые ресурсы
